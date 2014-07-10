@@ -10,6 +10,7 @@ public class App {
         System.out.println( str );
         System.out.println(appendStr(str));
         println();
+        System.out.println("再来一个好东西，看看");
     }
     
     public static String appendStr(String str){
