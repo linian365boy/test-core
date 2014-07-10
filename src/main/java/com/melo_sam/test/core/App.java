@@ -9,8 +9,10 @@ public class App {
     	String str = "Hello World!";
         System.out.println( str );
         System.out.println(appendStr(str));
-        println();
+        println("好东西！！！");
         System.out.println("再来一个好东西，看看");
+        System.out.println("再来而一个！");
+        println("this a good thing!");
     }
     
     public static String appendStr(String str){
@@ -19,7 +21,7 @@ public class App {
     	return sb.substring(4);
     }
     
-    public static void println(){
-    	System.out.println("first to bring to this world!");
+    public static void println(String str){
+    	System.out.println(str);
     }
 }
